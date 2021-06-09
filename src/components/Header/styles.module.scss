@@ -1,0 +1,22 @@
+.headerContainer {
+  background: var(--white);
+  height: 6.5rem;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0rem 4rem;
+
+  padding-bottom: 1px solid var(--gray-100);
+
+  p {
+    margin-left: 2rem; //distanciamento entre a logo
+    padding: 0.25rem 0 0.25rem 2rem; // 2 rem pro distanciamento entre a logo
+    border-left: 1px solid var(--gray-100); // Risco cinza ente a logo e o texto
+  }
+
+  span {
+    margin-left: auto; // Vai AUTOMATICAMENTE FAZER UMA MARGEM COM TODO O ESPAÇO DISPONÍVEL
+    text-transform: capitalize;
+  }
+}
